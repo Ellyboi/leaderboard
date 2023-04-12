@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  padding: 50px;
+  flex: 1;
+}
+
+.main__title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main__section {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* Score List */
+.scores__section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.title__section {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.scores__list {
+  list-style: none;
+}
+
+/* Add Score */
+.add_score_section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 20px;
+}
+
+button {
+  padding: 5px;
+  width: 100px;
+}
+
+.bt__submit {
+  align-self: flex-end;
+}
