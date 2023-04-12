@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h2><b>To Do List</b></h2>
+  <h2><b>Leaderboad</b></h2>
    <h3><b>Readme</b></h3>
 
 </div>
@@ -19,7 +19,9 @@
   - [:movie_camera: Project Presentation](#project-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Install](#Install)
   - [Prerequisites](#prerequisites)
+  - [Usage](#Usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -27,7 +29,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# To Do List <a name="about-project"></a>
+# Leaderboard <a name="about-project"></a>
 
 Welcome to one of the best apps to manage your daily activities in a simple way. Welcome to the To Do List!
 
@@ -49,7 +51,7 @@ Welcome to one of the best apps to manage your daily activities in a simple way.
 
 ### Key Features <a name="key-features"></a>
 
-
+- **[Gitflow]**
 - **[Webpack]**
 - **[Javascript Funcionality]**
 - **[ES6]**
@@ -73,6 +75,9 @@ Clone this repository to your desired folder:
 
 Note: For more information you can visit <a href="https://docs.github.com/es/get-started/getting-started-with-git/about-remote-repositories" target="_blank">About remote Repositories</a> and <a href="https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop" target="_blank">Adding and cloning repositories</a>.
 
+### Install
+
+- Run `npm install`
 ### Prerequisites
 
 In order to run this project you need:
@@ -81,6 +86,12 @@ In order to run this project you need:
 - Npm
 - Node
 - Webpack
+
+### Usage 
+
+- To run the project, execute the following command:
+ -Run `npm start`
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,7 +121,7 @@ In order to run this project you need:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live link](https://ellyboi.github.io/To-Do-List/dist/)
+- [Live link]
 
 <!-- Project Presntation -->
 
