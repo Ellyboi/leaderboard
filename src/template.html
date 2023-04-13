@@ -17,7 +17,10 @@
         <article class="section__header">
           <span class="title__section">Recent scores</span> <button type="button" id="Refresh">Refresh</button>
         </article>
-        <ul class="scores__list" id="scores__list"></ul>
+        <div id="loading"></div>
+        <ul class="scores__list" id="scores__list">
+          <li class="score__card">Please refresh to get all the scores!</li>
+        </ul>
       </section>
       <section class="add_score_section">
         <article class="section__header">
@@ -29,6 +32,7 @@
           <input type="number" required min="1" placeholder="Your score" id="score">
           <button class="bt__submit" type="submit">Submit</button>
         </form>
+        <span id="message"></span>
       </section>
     </section>
   </main>
