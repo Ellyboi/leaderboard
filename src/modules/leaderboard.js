@@ -13,17 +13,17 @@ export default class Leaderboard {
   }
 
    display = async () => {
-    const scoresList = document.querySelector('#scores__list');
-    const loader = document.querySelector('#loading');
-    scoresList.innerHTML = '';
-    loader.classList.add('display');
+     const scoresList = document.querySelector('#scores__list');
+     const loader = document.querySelector('#loading');
+     scoresList.innerHTML = '';
+     loader.classList.add('display');
      try {
        this.leaders = await Api.get();
        // Sort the result desc
        this.leaders = this.leaders.sort((a, b) => b.score - a.score);
-      loader.classList.remove('display');
-      this.leaders.forEach((leader, position) => {
-        const score = parseInt(leader.score, 10).toLocaleString('en-US');
+       loader.classList.remove('display');
+       this.leaders.forEach((leader, position) => {
+         const score = parseInt(leader.score, 10).toLocaleString('en-US');
          // New li
          const li = document.createElement('li');
          li.classList.add('score__card');
@@ -43,5 +43,4 @@ export default class Leaderboard {
        scoresList.appendChild(li);
      }
    }
- }
- 
+}
