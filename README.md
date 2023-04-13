@@ -30,7 +30,8 @@
 
 # Leaderboard <a name="about-project"></a>
 
-Welcome to one of the best apps to manage your daily activities in a simple way. Welcome to the To Do List!
+Leaderboard is a project which allows users to provide their score and display them in the leaderboard of the game. Build with HTML,CSS,JavaScript,API, and Webpack. This project uses Gitflow.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
