@@ -12,7 +12,7 @@ export default class Leaderboard {
     return response;
   }
 
-  async display() {
+   display = async () => {
     const scoresList = document.querySelector('#scores__list');
     scoresList.innerHTML = '';
     try {
