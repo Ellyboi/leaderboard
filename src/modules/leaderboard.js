@@ -1,3 +1,4 @@
+import Api from './api.js';
 import Player from './player.js';
 
 export default class Leaderboard {
@@ -5,21 +6,29 @@ export default class Leaderboard {
     this.leaders = [];
   }
 
-  addScore(user, score) {
+  static async addScore(user, score) {
     const newPlayer = new Player(user, score);
-    this.leaders.push(newPlayer);
+    const response = await Api.post(newPlayer);
+    return response;
   }
 
-  display() {
+  async display() {
     const scoresList = document.querySelector('#scores__list');
     scoresList.innerHTML = '';
-    // Sort the result desc
-    this.leaders = this.leaders.sort((a, b) => b.score - a.score);
-    this.leaders.forEach((leader) => {
-      // New li
+    try {
+      this.leaders = await Api.get();
+      // Sort the result desc
+      this.leaders = this.leaders.sort((a, b) => b.score - a.score);
+      this.leaders.forEach((leader) => {
+        // New li
+        const li = document.createElement('li');
+        li.textContent = `${leader.user}:  ${leader.score}`;
+        scoresList.appendChild(li);
+      });
+    } catch (error) {
       const li = document.createElement('li');
-      li.textContent = `${leader.user}  ${leader.score}`;
+      li.textContent = 'Please, verify your network connection';
       scoresList.appendChild(li);
-    });
+    }
   }
 }
