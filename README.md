@@ -91,7 +91,9 @@ In order to run this project you need:
 ### Usage 
 
 - To run the project, execute the following command:
+ -Run `npm run build`
  -Run `npm start`
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
