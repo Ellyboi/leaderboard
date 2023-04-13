@@ -118,16 +118,7 @@ In order to run this project you need:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-<!-- Project Presntation -->
-
-## :movie_camera: Project Presentation <a name="project-presentation"></a>
-
-- No presentation yet.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
