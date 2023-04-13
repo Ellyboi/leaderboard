@@ -12,7 +12,7 @@ export default class Api {
     return req.json();
   }
 
-  static async get() {
+  static get = async () => {
     const req = await fetch(baseURL);
     const response = await req.json();
     return response.result;
