@@ -92,7 +92,7 @@ In order to run this project you need:
 
 - To run the project, execute the following command:
  -Run `npm run build`
- -Run `npm start`
+ -Run `npm  run start`
 
 
 

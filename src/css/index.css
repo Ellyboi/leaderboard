@@ -7,16 +7,10 @@
   margin: 0;
 }
 
-:root {
-  --primary-color: #fffacc;
-  --secondary-color: #3b08f3d8;
-  --text-color: white;
-}
-
 body {
   display: flex;
   justify-content: center;
-  background-color: var(--secondary-color);
+  background-color: #165c05d8;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -35,13 +29,13 @@ body {
 .main__title {
   font-size: 40px;
   font-weight: 700;
-  color: var(--text-color);
+  color: #fff;
 }
 
 .main__section {
   display: flex;
   justify-content: center;
-  gap: 65px;
+  gap: 70px;
   margin-top: 20px;
   padding: 10px;
 }
@@ -63,7 +57,7 @@ body {
 .title__section {
   font-size: 30px;
   font-weight: 700;
-  color: var(--text-color);
+  color: #fff;
 }
 
 .scores__list {
@@ -109,7 +103,7 @@ img {
 .score {
   font-size: 25px;
   font-weight: 700;
-  color: rgb(52, 33, 98);
+  color: rgb(33, 33, 98);
 }
 
 /* Add Score */
@@ -141,6 +135,11 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 button {
   padding: 8px;
   width: 100px;
@@ -148,7 +147,7 @@ button {
   background: white;
   border: none;
   border-radius: 10px;
-  color: var(--secondary-color);
+  color: #165c05d8;
   font-size: 18px;
   font-weight: 700;
 }
@@ -163,13 +162,13 @@ button:active {
 }
 
 .new {
-  background-color: rgb(70, 235, 139);
+  background-color: rgb(69, 226, 135);
 }
 
 #message {
   margin-top: 20px;
   font-size: 18px;
-  color: var(--text-color);
+  color: #fff;
   font-weight: 700;
 }
 
@@ -179,7 +178,7 @@ button:active {
   width: 2rem;
   height: 2rem;
   border: 5px solid #f3f3f3;
-  border-top: 6px solid #f241bd;
+  border-top: 6px solid #33f13c;
   border-radius: 100%;
   margin: auto;
   display: none;

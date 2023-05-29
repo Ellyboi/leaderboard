@@ -1,4 +1,4 @@
-const baseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
+const baseURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nslYEPpt500fFqeTXs/scores/';
 
 export default class Api {
   static async post(newPlayer) {
@@ -12,7 +12,7 @@ export default class Api {
     return req.json();
   }
 
-  static get = async () => {
+  static async get() {
     const req = await fetch(baseURL);
     const response = await req.json();
     return response.result;

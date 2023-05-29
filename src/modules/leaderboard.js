@@ -12,35 +12,35 @@ export default class Leaderboard {
     return response;
   }
 
-   display = async () => {
-     const scoresList = document.querySelector('#scores__list');
-     const loader = document.querySelector('#loading');
-     scoresList.innerHTML = '';
-     loader.classList.add('display');
-     try {
-       this.leaders = await Api.get();
-       // Sort the result desc
-       this.leaders = this.leaders.sort((a, b) => b.score - a.score);
-       loader.classList.remove('display');
-       this.leaders.forEach((leader, position) => {
-         const score = parseInt(leader.score, 10).toLocaleString('en-US');
-         // New li
-         const li = document.createElement('li');
-         li.classList.add('score__card');
-         li.innerHTML = `
-         <article class="user">
-               <span>${position + 1}</span>
-               <span class="material-symbols-outlined">
-                 person
-               </span> <span>${leader.user}</span>
-             </article>
-             <span class="score">${score}</span>`;
-         scoresList.appendChild(li);
-       });
-     } catch (error) {
-       const li = document.createElement('li');
-       li.textContent = 'Please, verify your network connection';
-       scoresList.appendChild(li);
-     }
-   }
+  async display() {
+    const scoresList = document.querySelector('#scores__list');
+    const loader = document.querySelector('#loading');
+    scoresList.innerHTML = '';
+    loader.classList.add('display');
+    try {
+      this.leaders = await Api.get();
+      // Sort the result desc
+      this.leaders = this.leaders.sort((a, b) => b.score - a.score);
+      loader.classList.remove('display');
+      this.leaders.forEach((leader, position) => {
+        const score = +leader.score;
+        // New li
+        const li = document.createElement('li');
+        li.classList.add('score__card');
+        li.innerHTML = `
+        <article class="user">
+              <span>${position + 1}</span>
+              <span class="material-symbols-outlined">
+                person
+              </span> <span>${leader.user}</span>
+            </article>
+            <span class="score">${score.toFixed(0)}</span>`;
+        scoresList.appendChild(li);
+      });
+    } catch (error) {
+      const li = document.createElement('li');
+      li.textContent = 'Please, verify your network connection';
+      scoresList.appendChild(li);
+    }
+  }
 }
