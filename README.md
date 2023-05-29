@@ -1,3 +1,4 @@
+![Screenshot (30)](https://github.com/Ellyboi/leaderboard/assets/70116262/331686b9-42ef-4446-9efe-37f225aa0991)
 <a name="readme-top"></a>
 
 <div align="center">
