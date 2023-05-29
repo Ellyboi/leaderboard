@@ -51,6 +51,7 @@ Leaderboard is a project which allows users to provide their score and display t
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+- [Live-Demo](https://leaderboard-wp2o.onrender.com/)
 
 - **[Gitflow]**
 - **[Webpack]**
