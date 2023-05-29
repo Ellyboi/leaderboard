@@ -15,7 +15,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
   - [:movie_camera: Project Presentation](#project-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -31,7 +30,8 @@
 
 # Leaderboard <a name="about-project"></a>
 
-Welcome to one of the best apps to manage your daily activities in a simple way. Welcome to the To Do List!
+Leaderboard is a project which allows users to provide their score and display them in the leaderboard of the game. Build with HTML,CSS,JavaScript,API, and Webpack. This project uses Gitflow.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,6 +55,7 @@ Welcome to one of the best apps to manage your daily activities in a simple way.
 - **[Webpack]**
 - **[Javascript Funcionality]**
 - **[ES6]**
+- **[API]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,7 +91,9 @@ In order to run this project you need:
 ### Usage 
 
 - To run the project, execute the following command:
+ -Run `npm run build`
  -Run `npm start`
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -113,21 +116,12 @@ In order to run this project you need:
 - [ ] **[Finishing the full website]**
 - [ ] **[Adding Navigation Functions]**
 - [ ] **[Adding JS functionalities]**
+- [ ] **[Adding API url]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live link]
-
-<!-- Project Presntation -->
-
-## :movie_camera: Project Presentation <a name="project-presentation"></a>
-
-- No presentation yet.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,7 +132,6 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/). Or send them directly to me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
