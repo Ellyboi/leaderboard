@@ -58,8 +58,9 @@ Leaderboard is a project which allows users to provide their score and display t
 - **[ES6]**
 - **[API]**
 
- [Live-Demo Leaderboard](https://leaderboard-wp2o.onrender.com/)
-
+<div>
+[Live-Demo Leaderboard](https://leaderboard-wp2o.onrender.com/)
+</div>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
