@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [Live demo](#Live-demo)
   - [:movie_camera: Project Presentation](#project-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -58,10 +59,9 @@ Leaderboard is a project which allows users to provide their score and display t
 - **[ES6]**
 - **[API]**
 
-<div>
 [Live-Demo Leaderboard](https://leaderboard-wp2o.onrender.com/)
-</div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p     ffyt uj8e">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -97,8 +97,6 @@ In order to run this project you need:
  -Run `npm run build`
  -Run `npm  run start`
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -116,7 +114,7 @@ In order to run this project you need:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **[Finishing the full website]**
+- [ ] **[Finishing the full website]**   
 - [ ] **[Adding Navigation Functions]**
 - [ ] **[Adding JS functionalities]**
 - [ ] **[Adding API url]**
@@ -134,7 +132,6 @@ In order to run this project you need:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
